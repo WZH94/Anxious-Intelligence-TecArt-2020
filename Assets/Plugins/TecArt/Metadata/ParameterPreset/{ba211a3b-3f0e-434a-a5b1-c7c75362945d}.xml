@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{ba211a3b-3f0e-434a-a5b1-c7c75362945d}">
+		<property name="name">
+			<value>Shutdown</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f2b68767-f6a3-4fd9-88d9-867684f39118}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{336b9691-0c7a-4568-8f91-06b24fd2086b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{336b9691-0c7a-4568-8f91-06b24fd2086b}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

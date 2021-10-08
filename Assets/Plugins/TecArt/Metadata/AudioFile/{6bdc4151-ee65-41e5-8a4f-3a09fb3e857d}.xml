@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6bdc4151-ee65-41e5-8a4f-3a09fb3e857d}">
+		<property name="assetPath">
+			<value>Shutdown/369177__brytonentertainment__fluoresent-light-hum-and-refrigerator.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>156.44795833333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b055b337-b4b1-40de-a068-3f8579a097eb}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{1ab6ab50-1422-4b90-bee9-0d961e8d1b14}">
+		<property name="assetPath">
+			<value>Agitation/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b055b337-b4b1-40de-a068-3f8579a097eb}</destination>
+		</relationship>
+	</object>
+</objects>

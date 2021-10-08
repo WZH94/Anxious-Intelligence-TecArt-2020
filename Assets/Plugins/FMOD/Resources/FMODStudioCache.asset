@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6376900693560907524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/TecArt/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637164313459498950
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3727207603194379302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anxiety_Agitation
+  m_EditorClassIdentifier: 
+  Path: event:/Anxiety_Agitation
+  guid: cd2f87a48b1de645beaceeb0a4c001cf
+  Banks:
+  - {fileID: -6376900693560907524}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7285922118415559632}
+  - {fileID: -3152226837881776434}
+  - {fileID: 5902069088872750215}
+  - {fileID: 6857116313722382294}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65000
+--- !u!114 &-3152226837881776434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Anxiety_Agitation/Agitation
+  m_EditorClassIdentifier: 
+  Name: Agitation
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8545131719018909119}
+  - {fileID: -6376900693560907524}
+  EditorEvents:
+  - {fileID: -3727207603194379302}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6376900693560907524}
+  StringsBanks:
+  - {fileID: 8545131719018909119}
+  stringsBankWriteTime: 637163511124133117
+  cacheVersion: 3
+--- !u!114 &5902069088872750215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Anxiety_Agitation/Shutdown
+  m_EditorClassIdentifier: 
+  Name: Shutdown
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &6857116313722382294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Anxiety_Agitation/Alarmed
+  m_EditorClassIdentifier: 
+  Name: Alarmed
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &7285922118415559632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Anxiety_Agitation/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &8545131719018909119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/TecArt/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637163511124133117
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 930
+  Exists: 1

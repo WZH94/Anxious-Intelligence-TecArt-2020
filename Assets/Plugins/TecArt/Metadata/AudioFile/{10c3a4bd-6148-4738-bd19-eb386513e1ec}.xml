@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{10c3a4bd-6148-4738-bd19-eb386513e1ec}">
+		<property name="assetPath">
+			<value>Agitation/MechScreamRev/Articulation065 [2020-02-03 001713]-1 R.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0881354166666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b055b337-b4b1-40de-a068-3f8579a097eb}</destination>
+		</relationship>
+	</object>
+</objects>

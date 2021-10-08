@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{0a541884-b4fa-421c-b49b-64a721f1e9d7}">
+		<property name="name">
+			<value>Alarmed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f2b68767-f6a3-4fd9-88d9-867684f39118}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1a904f67-5626-437c-af8e-c87d79286352}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1a904f67-5626-437c-af8e-c87d79286352}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
